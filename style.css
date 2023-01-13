@@ -1,0 +1,37 @@
+section{
+    height: 80vh;
+    border: 1px solid black;
+}
+
+p{
+    color: blue;
+}
+
+.red{
+    color: red;
+}
+
+p.red{
+    color: purple;
+}
+
+#title {
+    color: black;
+}
+@media (max-width: 576px) {
+    div{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px){
+    div{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px){
+    div{
+        font-size: 20px;
+    }
+}
